@@ -104,3 +104,27 @@ ul {
     border-radius: 10px;
     margin-bottom: 16px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    margin-top: 100px;
+}
+
+.quote-box {
+    padding: 100px 440px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: 10;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    justify-content: end;
+}
