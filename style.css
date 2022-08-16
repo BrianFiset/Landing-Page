@@ -1,27 +1,25 @@
 body {
     margin: 0;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
     display: flex;
+    flex-direction: column;
     background-color: #1f2937;
-    flex-wrap: wrap;
-    height: 500px;
-    padding: 0 200px;
 }
 
 .header-top {
     display: flex;
-    width: 100%;
     justify-content: space-between;
     margin-top: 16px;
+    padding: 0 300px 100px 300px;
 }
 
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .header-subtext , a{
@@ -35,6 +33,7 @@ a {
 
 .header-main {
     display: flex;
+    padding: 0 300px 100px 300px;
 }
 
 ul {
@@ -55,15 +54,14 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 230px;
-    width: 530px;
+    height: 240px;
+    width: 100%;
     background-color: gray;
     color: #E5E7EB;
 }
 
 .header-text {
-    width: 400px;
-    margin-right: 100px;
+    margin-right: 70px;
 }
 
 .btn {
@@ -75,4 +73,34 @@ ul {
     font-size: 18px;
     font-weight: bold;
     margin-top: 16px;
+}
+
+.info {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 32px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info-box {
+    max-width: 150px;
+}
+.info-img {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 16px;
 }
