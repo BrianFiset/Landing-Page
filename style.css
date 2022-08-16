@@ -117,14 +117,48 @@ ul {
 .quote-text {
     font-style: italic;
     font-weight: 10;
-    font-size: 36px;
+    font-size: 24px;
     color: #1f2937;
 }
 
 .quote-author {
     font-weight: bolder;
-    font-size: 36px;
+    font-size: 24px;
     color: #1f2937;
     display: flex;
     justify-content: end;
+}
+
+.sign-up-box {
+    margin: 100px 300px;
+    padding: 50px 150px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-main {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign-up-text {
+    font-size: 18px;
+}
+.sign-up-btn {
+    background-color: #3882f6;
+    border: 2px solid #E5E7EB;
+    color: #E5E7EB;
+    border-radius: 10px;
+    padding: 5px 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sign-up-btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
